@@ -45,17 +45,14 @@
     <p id="message"></p>
 
     <script>
-        function checkToken() {
-            const token = document.getElementById("tokenInput").value;
+function checkToken() {
+    const token = document.getElementById("token").value;
 
-            if (token === "G4m3r") {
-                <a href="homepage.html">Home</a>
-            } else {
-                document.getElementById("message").textContent =
-                    "Invalid token lol"
-            }
-        }
-    </script>
+    if (token === "SUPERBB") {
+        window.location.href = "homepage.html";
+    }
+}
+</script>
 </body>
 </html>
     
